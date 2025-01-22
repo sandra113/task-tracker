@@ -1,0 +1,45 @@
+.dashboard-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dashboard-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  button.edit, button.delete {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.edit:hover {
+    background-color: #27ae60;
+  }
+  
+  button.delete {
+    background-color: #e74c3c;
+  }
+  
+  button.delete:hover {
+    background-color: #c0392b;
+  }
+  
